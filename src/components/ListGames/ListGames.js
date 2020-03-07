@@ -1,14 +1,15 @@
 import React, { useState, useEffect } from "react";
 
-const ListGames = () => {
-  const [games, setGames] = useState([]);
+export const ListGames = () => {
 
+  const [games, setGames] = useState([]);
+  
   useEffect(() => {
     fetch("http://localhost:3000/data.json")
       .then(response => response.json())
       .then(data => setGames(data));
   }, []);
-
+  
   return (
     <div>
       <ul>
@@ -22,4 +23,11 @@ const ListGames = () => {
     </div>
   );
 };
-export default ListGames;
+
+
+
+
+
+
+
+
