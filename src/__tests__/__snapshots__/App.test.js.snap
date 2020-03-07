@@ -1,0 +1,523 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app test should change score value 1`] = `
+<div>
+  <div>
+    <div>
+      <h1>
+        Score Games
+      </h1>
+      <form>
+        <select
+          id="formsel"
+        >
+          <option
+            disabled=""
+          >
+            Select One
+          </option>
+          <option
+            data-testid="select-9"
+            value="9"
+          >
+            Fortnite
+          </option>
+          <option
+            data-testid="select-6"
+            value="6"
+          >
+            Kitty vs Barbie
+          </option>
+          <option
+            data-testid="select-5"
+            value="5"
+          >
+            Final Fantasy VII
+          </option>
+          <option
+            data-testid="select-7"
+            value="7"
+          >
+            Xenoblace Chronicles
+          </option>
+          <option
+            data-testid="select-2"
+            value="2"
+          >
+            Metal Gear Solid
+          </option>
+          <option
+            data-testid="select-3"
+            value="3"
+          >
+            Banjo Kazooie
+          </option>
+          <option
+            data-testid="select-8"
+            value="8"
+          >
+            Dragon Quest XI
+          </option>
+          <option
+            data-testid="select-1"
+            value="1"
+          >
+            Octopath Traveler
+          </option>
+          <option
+            data-testid="select-0"
+            value="0"
+          >
+            Zelda: Breath of the wild
+          </option>
+          <option
+            data-testid="select-4"
+            value="4"
+          >
+            Pokemon Blue
+          </option>
+        </select>
+        <input
+          data-testid="puntuation"
+          placeholder="Puntua de 0 a 10..."
+          type="text"
+        />
+        <br />
+        <input
+          data-testid="submit"
+          type="submit"
+          value="PUNTUAR"
+        />
+      </form>
+    </div>
+    <div>
+      <h1>
+        List games redux:
+      </h1>
+      <ul>
+        <li
+          data-testid="6"
+        >
+          <p>
+            Name: 
+            Kitty vs Barbie
+          </p>
+          <p>
+            Score: 
+            1
+          </p>
+          <img
+            alt="Kitty vs Barbie"
+            src="http://localhost:3000/kitty.png"
+          />
+        </li>
+        <li
+          data-testid="5"
+        >
+          <p>
+            Name: 
+            Final Fantasy VII
+          </p>
+          <p>
+            Score: 
+            7
+          </p>
+          <img
+            alt="Final Fantasy VII"
+            src="http://localhost:3000/final-fantasy.png"
+          />
+        </li>
+        <li
+          data-testid="7"
+        >
+          <p>
+            Name: 
+            Xenoblace Chronicles
+          </p>
+          <p>
+            Score: 
+            7
+          </p>
+          <img
+            alt="Xenoblace Chronicles"
+            src="http://localhost:3000/xenoblade.jpg"
+          />
+        </li>
+        <li
+          data-testid="2"
+        >
+          <p>
+            Name: 
+            Metal Gear Solid
+          </p>
+          <p>
+            Score: 
+            8
+          </p>
+          <img
+            alt="Metal Gear Solid"
+            src="http://localhost:3000/metal-gear.jpg"
+          />
+        </li>
+        <li
+          data-testid="3"
+        >
+          <p>
+            Name: 
+            Banjo Kazooie
+          </p>
+          <p>
+            Score: 
+            8
+          </p>
+          <img
+            alt="Banjo Kazooie"
+            src="http://localhost:3000/banjo-kazooie.png"
+          />
+        </li>
+        <li
+          data-testid="8"
+        >
+          <p>
+            Name: 
+            Dragon Quest XI
+          </p>
+          <p>
+            Score: 
+            8
+          </p>
+          <img
+            alt="Dragon Quest XI"
+            src="http://localhost:3000/dragon-quest.jpg"
+          />
+        </li>
+        <li
+          data-testid="1"
+        >
+          <p>
+            Name: 
+            Octopath Traveler
+          </p>
+          <p>
+            Score: 
+            9
+          </p>
+          <img
+            alt="Octopath Traveler"
+            src="http://localhost:3000/octopath.jpg"
+          />
+        </li>
+        <li
+          data-testid="9"
+        >
+          <p>
+            Name: 
+            Fortnite
+          </p>
+          <p>
+            Score: 
+            10
+          </p>
+          <img
+            alt="Fortnite"
+            src="http://localhost:3000/fortnite.png"
+          />
+        </li>
+        <li
+          data-testid="0"
+        >
+          <p>
+            Name: 
+            Zelda: Breath of the wild
+          </p>
+          <p>
+            Score: 
+            10
+          </p>
+          <img
+            alt="Zelda: Breath of the wild"
+            src="http://localhost:3000/zelda.jpg"
+          />
+        </li>
+        <li
+          data-testid="4"
+        >
+          <p>
+            Name: 
+            Pokemon Blue
+          </p>
+          <p>
+            Score: 
+            10
+          </p>
+          <img
+            alt="Pokemon Blue"
+            src="http://localhost:3000/pokemon.jpeg"
+          />
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`app test should match snapshot 1`] = `
+<div>
+  <div>
+    <div>
+      <h1>
+        Score Games
+      </h1>
+      <form>
+        <select
+          id="formsel"
+        >
+          <option
+            disabled=""
+          >
+            Select One
+          </option>
+          <option
+            data-testid="select-0"
+            value="0"
+          >
+            Zelda: Breath of the wild
+          </option>
+          <option
+            data-testid="select-1"
+            value="1"
+          >
+            Octopath Traveler
+          </option>
+          <option
+            data-testid="select-2"
+            value="2"
+          >
+            Metal Gear Solid
+          </option>
+          <option
+            data-testid="select-3"
+            value="3"
+          >
+            Banjo Kazooie
+          </option>
+          <option
+            data-testid="select-4"
+            value="4"
+          >
+            Pokemon Blue
+          </option>
+          <option
+            data-testid="select-5"
+            value="5"
+          >
+            Final Fantasy VII
+          </option>
+          <option
+            data-testid="select-6"
+            value="6"
+          >
+            Kitty vs Barbie
+          </option>
+          <option
+            data-testid="select-7"
+            value="7"
+          >
+            Xenoblace Chronicles
+          </option>
+          <option
+            data-testid="select-8"
+            value="8"
+          >
+            Dragon Quest XI
+          </option>
+          <option
+            data-testid="select-9"
+            value="9"
+          >
+            Fortnite
+          </option>
+        </select>
+        <input
+          data-testid="puntuation"
+          placeholder="Puntua de 0 a 10..."
+          type="text"
+        />
+        <br />
+        <input
+          data-testid="submit"
+          type="submit"
+          value="PUNTUAR"
+        />
+      </form>
+    </div>
+    <div>
+      <h1>
+        List games redux:
+      </h1>
+      <ul>
+        <li
+          data-testid="9"
+        >
+          <p>
+            Name: 
+            Fortnite
+          </p>
+          <p>
+            Score: 
+            0
+          </p>
+          <img
+            alt="Fortnite"
+            src="http://localhost:3000/fortnite.png"
+          />
+        </li>
+        <li
+          data-testid="6"
+        >
+          <p>
+            Name: 
+            Kitty vs Barbie
+          </p>
+          <p>
+            Score: 
+            1
+          </p>
+          <img
+            alt="Kitty vs Barbie"
+            src="http://localhost:3000/kitty.png"
+          />
+        </li>
+        <li
+          data-testid="5"
+        >
+          <p>
+            Name: 
+            Final Fantasy VII
+          </p>
+          <p>
+            Score: 
+            7
+          </p>
+          <img
+            alt="Final Fantasy VII"
+            src="http://localhost:3000/final-fantasy.png"
+          />
+        </li>
+        <li
+          data-testid="7"
+        >
+          <p>
+            Name: 
+            Xenoblace Chronicles
+          </p>
+          <p>
+            Score: 
+            7
+          </p>
+          <img
+            alt="Xenoblace Chronicles"
+            src="http://localhost:3000/xenoblade.jpg"
+          />
+        </li>
+        <li
+          data-testid="2"
+        >
+          <p>
+            Name: 
+            Metal Gear Solid
+          </p>
+          <p>
+            Score: 
+            8
+          </p>
+          <img
+            alt="Metal Gear Solid"
+            src="http://localhost:3000/metal-gear.jpg"
+          />
+        </li>
+        <li
+          data-testid="3"
+        >
+          <p>
+            Name: 
+            Banjo Kazooie
+          </p>
+          <p>
+            Score: 
+            8
+          </p>
+          <img
+            alt="Banjo Kazooie"
+            src="http://localhost:3000/banjo-kazooie.png"
+          />
+        </li>
+        <li
+          data-testid="8"
+        >
+          <p>
+            Name: 
+            Dragon Quest XI
+          </p>
+          <p>
+            Score: 
+            8
+          </p>
+          <img
+            alt="Dragon Quest XI"
+            src="http://localhost:3000/dragon-quest.jpg"
+          />
+        </li>
+        <li
+          data-testid="1"
+        >
+          <p>
+            Name: 
+            Octopath Traveler
+          </p>
+          <p>
+            Score: 
+            9
+          </p>
+          <img
+            alt="Octopath Traveler"
+            src="http://localhost:3000/octopath.jpg"
+          />
+        </li>
+        <li
+          data-testid="0"
+        >
+          <p>
+            Name: 
+            Zelda: Breath of the wild
+          </p>
+          <p>
+            Score: 
+            10
+          </p>
+          <img
+            alt="Zelda: Breath of the wild"
+            src="http://localhost:3000/zelda.jpg"
+          />
+        </li>
+        <li
+          data-testid="4"
+        >
+          <p>
+            Name: 
+            Pokemon Blue
+          </p>
+          <p>
+            Score: 
+            10
+          </p>
+          <img
+            alt="Pokemon Blue"
+            src="http://localhost:3000/pokemon.jpeg"
+          />
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

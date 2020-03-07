@@ -14,7 +14,7 @@ function ListGamesRedux() {
    <ul>
         {gamesSorted.map(listGames => { 
           return  (
-          <li key={listGames.id}>
+          <li data-testid={listGames.id} key={listGames.id}>
             <p>Name: {listGames.name}</p>
             <p>Score: {listGames.score}</p>
             <img src={listGames.cover} alt={listGames.name}></img>
