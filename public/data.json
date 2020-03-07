@@ -2,51 +2,61 @@
   {
     "id": "0",
     "name": "Zelda: Breath of the wild",
-    "score": "0"
+    "score": "10",
+    "cover": "http://localhost:3000/zelda.jpg"
   },
   {
     "id": "1",
     "name": "Octopath Traveler",
-    "score": "0"
+    "score": "9",
+    "cover": "http://localhost:3000/octopath.jpg"
   },
   {
     "id": "2",
     "name": "Metal Gear Solid",
-    "score": "0"
+    "score": "8",
+    "cover": "http://localhost:3000/metal-gear.jpg"
   },
   {
     "id": "3",
     "name": "Banjo Kazooie",
-    "score": "0"
+    "score": "8",
+    "cover": "http://localhost:3000/banjo-kazooie.png"
   },
   {
     "id": "4",
     "name": "Pokemon Blue",
-    "score": "0"
+    "score": "10",
+    "cover": "http://localhost:3000/pokemon.jpeg"
   },
   {
     "id": "5",
     "name": "Final Fantasy VII",
-    "score": "0"
+    "score": "7",
+    "cover": "http://localhost:3000/final-fantasy.png"
   },
   {
     "id": "6",
     "name": "Kitty vs Barbie",
-    "score": "0"
+    "score": "1",
+    "cover": "http://localhost:3000/kitty.png"
   },
   {
     "id": "7",
     "name": "Xenoblace Chronicles",
-    "score": "0"
+    "score": "7",
+    "cover": "http://localhost:3000/xenoblade.jpg"
   },
   {
     "id": "8",
     "name": "Dragon Quest XI",
-    "score": "0"
+    "score": "8",
+    "cover": "http://localhost:3000/dragon-quest.jpg"
   },
   {
     "id": "9",
     "name": "Fortnite",
-    "score": "0"
+    "score": "0",
+    "cover": "http://localhost:3000/fortnite.png"
   }
 ]

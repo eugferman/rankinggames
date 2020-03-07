@@ -1,9 +1,9 @@
-const data = require('../data/data.json');
-
-const gamesReducer = (state = data, action) => {
+const gamesReducer = (state = [], action) => {
   switch (action.type) {
     case "LOAD_GAMES":
-      return state;
+      return state.concat(action.payload);
+    case "UPDATE_GAMES":
+      return action.payload;
     default:
       return state;
   }

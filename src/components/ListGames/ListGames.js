@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-export const ListGames = () => {
+function ListGames() {
 
   const [games, setGames] = useState([]);
   
@@ -25,7 +25,7 @@ export const ListGames = () => {
 };
 
 
-
+export default ListGames;
 
 
 
