@@ -1,0 +1,36 @@
+.main-list-games{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list-games{width: 1200px;
+  
+  ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: justify;
+    flex-wrap: wrap;
+  }
+
+  li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    list-style:none;
+    background-color: rgb(230, 231, 231);
+    margin:10px;
+    line-height: 1px;
+    border-radius: 5px;
+    box-shadow: 5px 5px #888888;
+  }
+
+  img{
+    margin: 10px;
+    width: 125px;
+  }
+}
+
+
+

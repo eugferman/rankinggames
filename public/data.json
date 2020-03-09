@@ -13,27 +13,27 @@
   },
   {
     "id": "2",
-    "name": "Metal Gear Solid",
+    "name": "Mario Oddisey",
     "score": "8",
-    "cover": "http://localhost:3000/metal-gear.jpg"
+    "cover": "http://localhost:3000/mario.jpg"
   },
   {
     "id": "3",
-    "name": "Banjo Kazooie",
+    "name": "Mario Kart",
     "score": "8",
-    "cover": "http://localhost:3000/banjo-kazooie.png"
+    "cover": "http://localhost:3000/mario-kart.jpg"
   },
   {
     "id": "4",
-    "name": "Pokemon Blue",
+    "name": "Pokemon Escudo",
     "score": "10",
-    "cover": "http://localhost:3000/pokemon.jpeg"
+    "cover": "http://localhost:3000/pokemon.jpg"
   },
   {
     "id": "5",
-    "name": "Final Fantasy VII",
+    "name": "Final Fantasy",
     "score": "7",
-    "cover": "http://localhost:3000/final-fantasy.png"
+    "cover": "http://localhost:3000/final-fantasy.jpg"
   },
   {
     "id": "6",
@@ -55,8 +55,8 @@
   },
   {
     "id": "9",
-    "name": "Fortnite",
+    "name": "Splatoon 2",
     "score": "0",
-    "cover": "http://localhost:3000/fortnite.png"
+    "cover": "http://localhost:3000/splatoon.jpg"
   }
 ]

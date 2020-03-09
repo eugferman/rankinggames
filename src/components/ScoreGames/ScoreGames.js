@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useSelector, useDispatch } from 'react-redux';
 import { updateGames } from '../../redux/actions/index';
 
+import './ScoreGames.scss';
 
 function ScoreGames() {
   const [puntuation, setPuntuation] = useState("");
@@ -34,17 +35,17 @@ function ScoreGames() {
   }
 
   return (
-    <div>
-      <h1>Score Games</h1>
-      <form onSubmit={onSubmitForm}>
-        <select id="formsel" onChange={handleSelectedGameId}>
+    <div className="main-score-games">
+      <h1>Rangking Games</h1>
+      <form className="form-score-games" onSubmit={onSubmitForm}>
+        <select className="form-select" id="formsel" onChange={handleSelectedGameId}>
           <option disabled selected>Select One</option>
           {gamesRedux.map(({name, id}) =>
           <option data-testid={`select-${id}`} key={id} value={id}>{name}</option> 
           )}
         </select>
         <input
-          placeholder="Puntua de 0 a 10..."
+          placeholder="Score from 0 to 10..."
           type="text"
           data-testid="puntuation"
           onChange={handlePuntuation}
@@ -52,7 +53,7 @@ function ScoreGames() {
         <br />
         <input
          type="submit"
-         value="PUNTUAR"
+         value="SCORE"
          data-testid="submit"
         />
       </form>
