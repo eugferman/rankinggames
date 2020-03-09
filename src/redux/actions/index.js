@@ -1,15 +1,13 @@
-export const gamesToRedux = (games) =>{
+export const gamesToRedux = games => {
   return {
-    type: 'LOAD_GAMES',
+    type: "LOAD_GAMES",
     payload: games
-  }
-}
+  };
+};
 
-export const updateGames = (games) =>{
+export const updateGames = games => {
   return {
-    type: 'UPDATE_GAMES',
+    type: "UPDATE_GAMES",
     payload: games
-  }
-}
-
-
+  };
+};
