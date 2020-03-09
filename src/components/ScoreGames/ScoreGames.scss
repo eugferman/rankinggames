@@ -1,82 +1,102 @@
-.main-score-games{
+.main-score-games {
   background-color: lightblue;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 40px;
 
-  h1{
+  h1 {
     text-align: center;
   }
 }
 
-.form-score-games{
+.form-score-games {
   display: flex;
   flex-direction: row;
   justify-content: center;
   background-color: white;
   padding: 30px;
 
-  select, input{
+  select,
+  input {
     background-color: #ececec;
     margin: 10px;
     padding: 10px;
     border: none;
   }
 
-  input[type=text]{
+  input[type="text"] {
     margin: 10px;
     padding: 10px;
     border: none;
   }
 
-  input[type=text]:focus {
-    box-shadow: 0 0 1px 1px rgba(59, 153, 252, .7);
+  input[type="text"]:focus {
+    box-shadow: 0 0 1px 1px rgba(59, 153, 252, 0.7);
     box-shadow: 0 0 0 3px -moz-mac-focusring;
-    color: #222; 
+    color: #222;
     outline: none;
   }
 
-  input[type=submit]{
+  input[type="submit"] {
     width: 400px;
     margin: 10px;
     padding: 10px;
     border: none;
     cursor: pointer;
-    
   }
 
-  input[type=submit]:hover{
+  input[type="submit"]:hover {
     background-color: #3b99fc;
   }
-
 }
 
 .form-select {
   color: #444;
   line-height: 1.3;
-  padding: .4em 1.4em .3em .8em;
+  padding: 0.4em 1.4em 0.3em 0.8em;
   width: 400px;
   box-sizing: border-box;
   margin: 20px auto;
   border: 1px solid #aaa;
-  box-shadow: 0 1px 0 1px rgba(0,0,0,.03);
-  border-radius: .3em;
+  box-shadow: 0 1px 0 1px rgba(0, 0, 0, 0.03);
+  border-radius: 0.3em;
   background-color: #fff;
   background-repeat: no-repeat, repeat;
-  background-position: right .7em top 50%, 0 0;
-  background-size: .65em auto, 100%;
+  background-position: right 0.7em top 50%, 0 0;
+  background-size: 0.65em auto, 100%;
 }
 .form-select:focus {
   border-color: #aaa;
-  box-shadow: 0 0 1px 1px rgba(59, 153, 252, .7);
+  box-shadow: 0 0 1px 1px rgba(59, 153, 252, 0.7);
   box-shadow: 0 0 0 3px -moz-mac-focusring;
-  color: #222; 
+  color: #222;
   outline: none;
 }
 .select-css option {
-  font-weight:bold;
+  font-weight: bold;
 }
 
+@media (max-width: 425px) {
+  .form-score-games {
+    flex-direction: column;
+  }
+  input[type="submit"] {
+    width: 400px;
+  }
+  .form-select {
+    width: 400px;
+  }
+}
 
-
+@media (min-width: 426px) and (max-width: 1024px) {
+  .form-score-games {
+    flex-direction: column;
+  }
+  input[type="submit"] {
+    width: 400px;
+  }
+  .form-select {
+    width: 400px;
+  }
+}
